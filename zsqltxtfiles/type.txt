@@ -1,0 +1,51 @@
+1
+insert into type(typeID, typeName)
+values(NULL, 'Grass');
+2
+insert into type(typeID, typeName)
+values(NULL, 'Fire');
+3
+insert into type(typeID, typeName)
+values(NULL, 'Water');
+4
+insert into type(typeID, typeName)
+values(NULL, 'Normal');
+5
+insert into type(typeID, typeName)
+values(NULL, 'Electric');
+6
+insert into type(typeID, typeName)
+values(NULL, 'Rock');
+7
+insert into type(typeID, typeName)
+values(NULL, 'Ground');
+8
+insert into type(typeID, typeName)
+values(NULL, 'Bug');
+9
+insert into type(typeID, typeName)
+values(NULL, 'Fighting');
+10
+insert into type(typeID, typeName)
+values(NULL, 'Flying');
+11
+insert into type(typeID, typeName)
+values(NULL, 'Poison');
+12
+insert into type(typeID, typeName)
+values(NULL, 'Ice');
+13
+insert into type(typeID, typeName)
+values(NULL, 'Psychic');
+14
+insert into type(typeID, typeName)
+values(NULL, 'Ghost');
+15
+insert into type(typeID, typeName)
+values(NULL, 'Dragon');
+16
+insert into type(typeID, typeName)
+values(NULL, 'Dark');
+17
+insert into type(typeID, typeName)
+values(NULL, 'Steel');

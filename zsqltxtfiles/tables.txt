@@ -1,0 +1,50 @@
+create table type (
+typeID INT NOT NULL AUTO_INCREMENT,
+typeName VARCHAR(20) NOT NULL,
+PRIMARY KEY type(typeID)
+);
+
+create table ability (
+abilityID INT NOT NULL AUTO_INCREMENT,
+abilityName VARCHAR(50) NOT NULL,
+abilityDescr LONGTEXT NOT NULL,
+PRIMARY KEY(abilityID)
+);
+
+create table area (
+areaID INT NOT NULL AUTO_INCREMENT,
+areaName VARCHAR(50) NOT NULL,
+PRIMARY KEY(areaID)
+);
+
+
+create table pokemon (
+pokemonID INT NOT NULL AUTO_INCREMENT,
+pokemonName VARCHAR(10) NOT NULL,
+`img` VARCHAR(255) NOT NULL,
+primaryTypeID INT NOT NULL,
+secondaryTypeID INT NULL,
+abilityID INT NOT NULL,
+areaID INT NULL,
+evolvesTo INT NULL,
+PRIMARY KEY (pokemonID),
+FOREIGN KEY (primaryTypeID) references type(typeID),
+FOREIGN KEY (secondaryTypeID) references type(typeID),
+FOREIGN KEY (abilityID) references ability(abilityID),
+FOREIGN KEY (areaID) references area(areaID),
+FOREIGN KEY (evolvesTo) references pokemon(pokemonID),
+FOREIGN KEY (abilityID) references ability(abilityID)
+);
+
+create table trainer (
+trainerID INT NOT NULL AUTO_INCREMENT,
+username VARCHAR(30) NOT NULL,
+password VARCHAR(30) NOT NULL,
+firstName VARCHAR(30),
+lastName VARCHAR(30),
+`role` TINYINT NOT NULL,
+caught JSON NULL,
+PRIMARY KEY trainer(trainerID)
+);
+
+

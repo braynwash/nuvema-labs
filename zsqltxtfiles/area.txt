@@ -1,0 +1,266 @@
+/*
+create table area (
+areaID INT NOT NULL AUTO_INCREMENT,
+areaName VARCHAR(50) NOT NULL,
+PRIMARY KEY(areaID)
+);
+*/
+#1
+insert into area (areaID, areaName)
+values(NULL, 'Event');
+
+#2
+insert into area (areaID, areaName)
+values(NULL, 'Starter');
+
+#3
+insert into area (areaID, areaName)
+values(NULL, 'Route 1');
+
+#4
+insert into area (areaID, areaName)
+values(NULL, 'Route 7');
+
+#5
+insert into area (areaID, areaName)
+values(NULL, 'Route 10');
+
+#6
+insert into area (areaID, areaName)
+values(NULL, 'Route 2');
+
+#7
+insert into area (areaID, areaName)
+values(NULL, 'Route 5');
+
+#8
+insert into area (areaID, areaName)
+values(NULL, 'Pinwheel Forest - Inside');
+
+#9
+insert into area (areaID, areaName)
+values(NULL, 'Dreamyard');
+
+#10
+insert into area (areaID, areaName)
+values(NULL, 'Dreamyard Basement');
+
+#11
+insert into area (areaID, areaName)
+values(NULL, 'Route 3');
+
+#12
+insert into area (areaID, areaName)
+values(NULL, 'Route 6');
+
+#13
+insert into area (areaID, areaName)
+values(NULL, 'Route 12');
+
+#14
+insert into area (areaID, areaName)
+values(NULL, 'Wellspring Cave');
+
+#15
+insert into area (areaID, areaName)
+values(NULL, 'Twist Mountain');
+
+#16
+insert into area (areaID, areaName)
+values(NULL, 'Victory Road');
+
+#17
+insert into area (areaID, areaName)
+values(NULL, 'Mistralton Cave');
+
+#18
+insert into area (areaID, areaName)
+values(NULL, 'Cold Storage');
+
+#19
+insert into area (areaID, areaName)
+values(NULL, 'Pinwheel Forest');
+
+#20
+insert into area (areaID, areaName)
+values(NULL, 'Route 8');
+
+#21
+insert into area (areaID, areaName)
+values(NULL, 'Moor of Icirrus');
+
+#22
+insert into area (areaID, areaName)
+values(NULL, 'Lostlorn Forest');
+
+#23
+insert into area (areaID, areaName)
+values(NULL, 'Abundant Shrine');
+
+#24
+insert into area (areaID, areaName)
+values(NULL, 'Wherever water flows');
+
+#25
+insert into area (areaID, areaName)
+values(NULL, 'Desert Resort');
+
+#26
+insert into area (areaID, areaName)
+values(NULL, 'Relic Castle');
+
+#27
+insert into area (areaID, areaName)
+values(NULL, 'Route 18');
+
+#28
+insert into area (areaID, areaName)
+values(NULL, 'Route 4');
+
+//
+
+#29
+insert into area (areaID, areaName)
+values(NULL, 'The Maze of Relic Castle');
+
+#30
+insert into area (areaID, areaName)
+values(NULL, 'Fossil');
+
+//
+
+#31
+insert into area (areaID, areaName)
+values(NULL, 'Route 9');
+
+//
+
+#32
+insert into area (areaID, areaName)
+values(NULL, 'Route 16');
+
+//
+
+#33
+insert into area (areaID, areaName)
+values(NULL, 'Driftveil Drawbridge');
+
+#34
+insert into area (areaID, areaName)
+values(NULL, 'Marvelous Bridge');
+
+#35
+insert into area (areaID, areaName)
+values(NULL, 'Outside Cold Storage');
+
+#36
+insert into area (areaID, areaName)
+values(NULL, 'Dragonspiral Tower');
+
+#37
+insert into area (areaID, areaName)
+values(NULL, 'Outside Dragonspiral Tower');
+
+//
+
+#38
+insert into area (areaID, areaName)
+values(NULL, 'Route 17');
+
+#39
+insert into area (areaID, areaName)
+values(NULL, 'Route 18');
+
+#40
+insert into area (areaID, areaName)
+values(NULL, 'Chargestone Cave');
+
+//
+
+#41
+insert into area (areaID, areaName)
+values(NULL, 'Celestial Tower');
+
+#42
+insert into area (areaID, areaName)
+values(NULL, 'Route 14');
+
+//
+
+#43
+insert into area (areaID, areaName)
+values(NULL, 'Route 11');
+
+//
+
+#44
+insert into area (areaID, areaName)
+values(NULL, 'Relic Castle Maze End');
+
+//
+#45
+insert into area (areaID, areaName)
+values(NULL, 'Mistralton Cave Guidance Chamber');
+
+#46
+insert into area (areaID, areaName)
+values(NULL, 'Pinwheel Forest Rumination Field');
+
+#47
+insert into area (areaID, areaName)
+values(NULL, 'Victory Road Trial Chamber');
+
+#48
+insert into area (areaID, areaName)
+values(NULL, 'Roaming Unova');
+
+#49
+insert into area (areaID, areaName)
+values(NULL, 'Ns Castle');
+insert into area (areaID, areaName)
+values();
+
+#50
+insert into area (areaID, areaName)
+values(NULL, 'Giant Chasm Inner Cave');
+
+
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+insert into area (areaID, areaName)
+values();
+
+
+
+
+
